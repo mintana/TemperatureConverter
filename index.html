@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+
+<body>
+    <div class="title">
+           <h1>Temperature converter</h1>
+            <h4>Convert celcius to farenheit or vice-versa.</h4>
+    </div>
+
+    <div class="container">
+        <form action="" onsubmit="MyConvert(); return false">
+            <label for="">
+                <div class="text">
+                    <p class="CelciusText">Enter temperature in celcius:</p>
+                </div>
+                <input type="number" class="celcius"> <p class="cel">°C</p>
+            </label>
+
+            <label for="">
+                <div class="text">
+                    <p class="FarenheitText">Enter temperature in farenheit:</p>
+                </div>
+                <input type="text" class="output"><p class="far">°F</p>
+            </label>
+
+            <div class="btn">
+                <button type="submit" class="sub">Convert</button>
+                <button type="button" class="swap" >Switch</button>
+                <button type="reset" class="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
